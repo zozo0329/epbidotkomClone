@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.logo h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 70px;
+  padding: 0px;
+  margin: 0px;
+  color: #367cff;
+}
+.logo p {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Tiny5", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+}

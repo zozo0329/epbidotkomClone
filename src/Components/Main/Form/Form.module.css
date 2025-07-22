@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
+.headStyle {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 5px rgb(190, 190, 190);
+}
+.headStyle form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.headStyle input {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  padding: 17px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline-color: blue;
+}
+.botOption {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 20px;
+}
+.botOption a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+}
+.line {
+  border-top: 1px solid rgb(71, 71, 71);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botOption button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00d400;
+  font-size: 20px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 18px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.botOption button:hover {
+  background-color: #00bd00;
+}
