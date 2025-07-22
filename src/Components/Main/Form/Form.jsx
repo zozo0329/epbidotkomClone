@@ -1,9 +1,12 @@
-import React from "react";
 import FormStyle from "./Form.module.css";
 import Button from "../../UI/Button/Button";
-const Form = () => {
+const Form = ({ setBtn1, mainbtn, setMainbtn }) => {
   const submitHandler = (e) => {
     e.preventDefault();
+  };
+  const clickHandler = () => {
+    setBtn1(true);
+    setMainbtn(false);
   };
   return (
     <div className={FormStyle}>
@@ -13,9 +16,7 @@ const Form = () => {
             <input type="text" placeholder="Email" />
             <input type="password" placeholder="Password" />
           </div>
-          <div>
-            <Button>Login</Button>
-          </div>
+          <div>{mainbtn && <Button onClick={clickHandler}>Login</Button>}</div>
         </form>
         <div className={FormStyle.botOption}>
           <div>

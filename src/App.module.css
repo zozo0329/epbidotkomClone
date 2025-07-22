@@ -1,7 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
 .content {
-  padding: 50px;
+  padding: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
+}
+.btns1 {
+  background-color: #367cff;
+  border: none;
+  color: white;
+  font-size: 23px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  width: 300px;
+  position: absolute;
+  top: 270px;
+  right: 600px;
+}
+.btns1:hover {
+  background-color: #3274ee;
+}
+.btns2 {
+  background-color: #367cff;
+  border: none;
+  color: white;
+  font-size: 23px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  width: 300px;
+  position: absolute;
+  top: 270px;
+  right: 910px;
+}
+.btns2:hover {
+  background-color: #3274ee;
 }
